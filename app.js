@@ -1,9 +1,13 @@
-const iniHari = prompt("isikan hari!").toLowerCase();
+const password = prompt("buat password");
 
-if (iniHari === "senin") {
-  console.log("selamat bekerja kawan");
-} else if (iniHari === "sabtu") {
-  console.log("semoga jangan cepat berlalu");
+// password harus sepanjang 6 karakter
+
+if (password.length >= 6) {
+  if (password.indexOf(" ") === -1) {
+    console.log("password Valid");
+  } else {
+    console.log("password tidak boleh ada spasi");
+  }
 } else {
-  console.log("Yah biasa saja");
+  console.log("password minimal 6 karakter");
 }
