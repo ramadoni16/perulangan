@@ -1,7 +1,7 @@
-const password = prompt("buat password");
+const role = prompt("masukkan role akun");
 
-if (password.length >= 6 && password.indexOf(" ") === -1) {
-  console.log("password valid");
+if (role === "admin" || role === "spv") {
+  console.log("boleh mengaksesnya");
 } else {
-  console.log("password tidak memenuhi syarat");
+  console.log("akses ditolak");
 }
