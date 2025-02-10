@@ -1,16 +1,30 @@
-// console.log("sebelum pembanding");
-// if (1 + 1 === 2) {
-//   console.log("di dalam pembanding");
+let age = 15;
+
+// if (age === 18) {
+//   console.log("boleh... boleh masuk");
+// } else if (age === 26) {
+//   console.log("perlu di bimbing orang tua ya");
+// } else if (age === 8) {
+//   console.log("Sudah pergi kedokter gigi ?");
 // }
 
-// console.log("setelah pembanding");
+// const iniHari = "sabtu";
+// if (iniHari === "Senin") {
+//   console.log("selamat bekerja kawan");
+// } else if (iniHari === "sabtu") {
+//   console.log("semoga jangan cepat berlalu");
+// }
 
-let angka = Math.random();
-console.log(angka);
+const nilai = "76";
 
-if (angka >= 0.5) {
-  console.log("Angka lebih besar dari 0.5");
-}
-if (angka <= 0.5) {
-  console.log("Angka lebih kecil dari 0.5");
+if (nilai < 50) {
+  console.log("E");
+} else if (nilai < 60) {
+  console.log("D");
+} else if (nilai < 70) {
+  console.log("C");
+} else if (nilai < 80) {
+  console.log("B");
+} else if (nilai < 100) {
+  console.log("A");
 }
