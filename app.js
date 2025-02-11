@@ -1,4 +1,7 @@
-const kumpulanWarna = ["merah", "kuning", "hijau"];
+const board = [
+  [null, null, "0"],
+  ["0", "x", null],
+  ["x", null, "0"],
+];
 
-kumpulanWarna.push("biru");
-console.log(kumpulanWarna);
+console.log(board[0][2]);
