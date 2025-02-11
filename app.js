@@ -1,5 +1,4 @@
-let student = ["rama", "doni", "jarwo", "sopo"];
-student.unshift("ndon");
-student.unshift(0);
-student.shift();
-console.log(student);
+const months = ["januari", "maret", "April", "juni"];
+months.splice(1, 0, "Februari");
+
+console.log(months);
