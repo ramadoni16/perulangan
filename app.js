@@ -1,4 +1,4 @@
-const months = ["januari", "maret", "April", "juni"];
-months.splice(1, 0, "Februari");
+const kumpulanWarna = ["merah", "kuning", "hijau"];
 
-console.log(months);
+kumpulanWarna.push("biru");
+console.log(kumpulanWarna);
