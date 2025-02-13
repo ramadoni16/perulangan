@@ -1,7 +1,11 @@
-const board = [
-  [null, null, "0"],
-  ["0", "x", null],
-  ["x", null, "0"],
-];
+const orang = {
+  nama: "rama",
+  tanggal: 16,
+  alamat: "lampung",
+};
 
-console.log(board[0][2]);
+orang.nama;
+orang.tanggal;
+orang.alamat;
+
+console.log(orang);
