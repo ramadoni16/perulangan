@@ -1,19 +1,5 @@
-// for (let i = 1; i <= 10; i++) {
-//   console.log(i);
-// }
+const animals = ["kucing", "anjing", "beruang", "koala", "zebra"];
 
-// for (let i = 1; i <= 20; i += 3) {
-//   console.log(i);
-// }
-
-// for (let i = 20; i >= 0; i--) {
-//   console.log(i);
-// }
-
-// for (let i = 20; i >= 0; i -= 2) {
-//   console.log(i);
-// }
-
-for (let i = 10; i <= 100000; i *= 20) {
-  console.log(i);
+for (let i = 0; i < animals.length; i++) {
+  console.log(i, animals[i]);
 }
