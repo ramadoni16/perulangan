@@ -1,20 +1,14 @@
-// MENGGUNAKAN WHILE
-// let num = 0;
+// KATA KUNCI BREAK UNTUK MEMBERHENTIKAN PERULANGAN
 
-// while (num < 10) {
-//   console.log(num);
-//   num++;
+// let input = prompt("Hei, say something");
+
+// while (true) {
+//   input = prompt(input);
+//   if (input === "stop") break;
 // }
+// alert("ok");
 
-// MENGGUNAKAN FOR
-// for (let num = 0; num < 10; num++) {
-//   console.log(num);
-// }
-
-const password = "Pass123";
-
-let guess = prompt("etnter the password");
-while (guess !== password) {
-  guess = prompt("enter the password");
+for (let i = 0; i < 10000; i++) {
+  console.log(i);
+  if (i === 100) break;
 }
-alert("congrats! the password is correct");
